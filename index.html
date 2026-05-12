@@ -3,69 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitoria Solidária - Educação para Todos</title>
+    <title>Conexão Gerações - Combate ao Isolamento de Idosos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <h1>Monitoria Solidária</h1>
+                <h1>Conexão Gerações</h1>
             </div>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
                 <li><a href="proposta.html">A Proposta</a></li>
-                <li><a href="voluntario.html">Seja um Voluntário</a></li>
-                <li><a href="galeria.html">Galeria/Impacto</a></li>
+                <li><a href="voluntario.html">Inscrição</a></li>
+                <li><a href="galeria.html">Mural/Doações</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="banner">
-            <h2>"Educação é a arma mais poderosa para mudar o mundo."</h2>
-            <p>Nelson Mandela</p>
-            <img src="logo-placeholder.png" alt="Logo Monitoria Solidária" class="logo-banner">
+            <h2>Conexão Gerações</h2>
+            <p>Unindo alunos da Paulo de Tarso e idosos para compartilhar tecnologia, histórias e cuidado.</p>
+            <img src="assets/logo.svg" alt="Logo Conexão Gerações" class="logo-banner">
         </section>
 
-        <section id="agendamento">
-            <h3>Sistema de Agendamento</h3>
-            <form id="agendamento-form">
-                <label for="materia">Matéria:</label>
-                <select id="materia">
-                    <option value="matematica">Matemática</option>
-                    <option value="portugues">Português</option>
-                    <option value="ciencias">Ciências</option>
-                    <option value="historia">História</option>
-                    <option value="geografia">Geografia</option>
-                </select>
-                <label for="data">Data:</label>
-                <input type="date" id="data">
-                <label for="hora">Hora:</label>
-                <input type="time" id="hora">
-                <button type="submit">Agendar</button>
-            </form>
-        </section>
-
-        <section id="materiais">
-            <h3>Banco de Materiais</h3>
-            <p>Upload de resumos, mapas mentais e exercícios pelos voluntários.</p>
-            <input type="file" id="upload-material">
-            <button onclick="uploadMaterial()">Enviar Material</button>
-            <div id="materiais-list"></div>
-        </section>
-
-        <section id="ranking">
-            <h3>Ranking de Horas - Tutores do Mês</h3>
-            <ul id="ranking-list">
-                <!-- Ranking será carregado dinamicamente -->
+        <section id="sobre">
+            <h3>O projeto</h3>
+            <p>Alunos visitam um ILPI próximo ou recebem os idosos na escola para encontros que fortalecem a convivência e reduzem o isolamento social.</p>
+            <ul class="feature-list">
+                <li>Área de Inscrição para alunos que desejam ensinar tecnologia básica.</li>
+                <li>Mural de Memórias para compartilhar histórias emocionantes.</li>
+                <li>Termômetro de Doações para itens de higiene pessoal.</li>
             </ul>
+        </section>
+
+        <section id="destaques">
+            <div class="card">
+                <h4>Inscrição</h4>
+                <p>Cadastre-se para ensinar WhatsApp, videochamadas e mensagens aos idosos.</p>
+                <a href="voluntario.html" class="button-link">Quero me inscrever</a>
+            </div>
+            <div class="card">
+                <h4>Mural de Memórias</h4>
+                <p>Leia e compartilhe histórias dos encontros entre gerações.</p>
+                <a href="galeria.html" class="button-link">Ver mural</a>
+            </div>
+            <div class="card">
+                <h4>Campanha</h4>
+                <p>Ajude a encher o termômetro com itens essenciais para os idosos.</p>
+                <a href="galeria.html" class="button-link">Apoiar campanha</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Monitoria Solidária. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Conexão Gerações. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>

@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seja um Voluntário - Monitoria Solidária</title>
+    <title>Inscrição - Conexão Gerações</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <h1>Monitoria Solidária</h1>
+                <h1>Conexão Gerações</h1>
             </div>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
                 <li><a href="proposta.html">A Proposta</a></li>
-                <li><a href="voluntario.html">Seja um Voluntário</a></li>
-                <li><a href="galeria.html">Galeria/Impacto</a></li>
+                <li><a href="voluntario.html">Inscrição</a></li>
+                <li><a href="galeria.html">Mural/Doações</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>Seja um Voluntário</h2>
-            <p>Junte-se a nós e faça a diferença! Preencha o formulário abaixo para se cadastrar como tutor voluntário.</p>
-            <form id="voluntario-form">
-                <label for="nome">Nome:</label>
+            <h2>Inscrição de Voluntários</h2>
+            <p>Se você quer ensinar tecnologia a idosos e fortalecer a conexão entre gerações, faça sua inscrição abaixo.</p>
+            <form id="inscricao-form">
+                <label for="nome">Nome completo:</label>
                 <input type="text" id="nome" required>
-                
+
                 <label for="serie">Série:</label>
                 <select id="serie" required>
                     <option value="6">6º ano</option>
@@ -38,23 +38,27 @@
                     <option value="9">9º ano</option>
                     <option value="ensino-medio">Ensino Médio</option>
                 </select>
-                
-                <label for="disponibilidade">Disponibilidade (dias da semana):</label>
-                <select id="disponibilidade" multiple required>
-                    <option value="segunda">Segunda-feira</option>
-                    <option value="terca">Terça-feira</option>
-                    <option value="quarta">Quarta-feira</option>
-                    <option value="quinta">Quinta-feira</option>
-                    <option value="sexta">Sexta-feira</option>
+
+                <label for="contato">Contato (WhatsApp ou e-mail):</label>
+                <input type="text" id="contato" required>
+
+                <label for="modalidade">Modalidade:</label>
+                <select id="modalidade" required>
+                    <option value="presencial">Presencial</option>
+                    <option value="online">Online / videochamada</option>
                 </select>
-                
-                <button type="submit">Cadastrar</button>
+
+                <label for="disponibilidade">Disponibilidade:</label>
+                <input type="text" id="disponibilidade" placeholder="Ex: Segunda e Quarta pela tarde" required>
+
+                <button type="submit">Enviar inscrição</button>
             </form>
+            <div id="mensagem-inscricao" class="message"></div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Monitoria Solidária. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Conexão Gerações. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>

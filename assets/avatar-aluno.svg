@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <rect width="150" height="150" rx="24" ry="24" fill="#8B4513" />
+  <circle cx="75" cy="55" r="30" fill="#FFF8DC" />
+  <rect x="40" y="90" width="70" height="40" rx="16" ry="16" fill="#FFF8DC" />
+  <text x="75" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8B4513">Aluno</text>
+</svg>

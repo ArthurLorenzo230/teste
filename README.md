@@ -1,27 +1,27 @@
-# Monitoria Solidária
+# Conexão Gerações
 
-## Projeto: Educação e Desigualdade de Aprendizado
+## Projeto: Combate ao isolamento social de idosos
 
-Este site foi desenvolvido para o projeto "Monitoria Solidária", onde alunos de séries mais avançadas oferecem reforço escolar gratuito para alunos das séries iniciais da Escola Paulo de Tarso e escolas públicas vizinhas.
+Este site apresenta o projeto "Conexão Gerações", onde alunos da Escola Paulo de Tarso se conectam com idosos de um ILPI próximo para compartilhar tecnologia, histórias e apoio afetivo.
 
 ### Funcionalidades
 
-- **Sistema de Agendamento**: Permite que alunos "clientes" marquem horários e matérias para ajuda.
-- **Banco de Materiais**: Upload de resumos, mapas mentais e exercícios pelos voluntários.
-- **Ranking de Horas**: Sistema de gamificação para premiar os "Tutores do Mês".
+- **Área de Inscrição**: Formulário para alunos voluntários que desejam ensinar tecnologia básica aos idosos.
+- **Mural de Memórias**: Espaço para publicar histórias e memórias compartilhadas durante os encontros.
+- **Campanha de Doações**: Termômetro de arrecadação de itens de higiene pessoal visível no site.
 - **Seções do Site**:
-  - Home: Banner impactante com frase motivacional e logo.
-  - Quem Somos: História da escola e escolha da causa.
-  - A Proposta: Detalhamento da ação.
-  - Seja um Voluntário: Formulário de cadastro.
-  - Galeria/Impacto: Fotos e contador de vidas impactadas.
+  - Home: Apresentação do projeto e chamadas para ação.
+  - Quem Somos: Identidade do projeto e propósito social.
+  - A Proposta: Como os encontros funcionam e para quem são.
+  - Inscrição: Formulário para alunos se inscreverem como voluntários.
+  - Mural/Doações: Mural de memórias e termômetro de campanha.
 
 ### Como Executar
 
-Abra o arquivo `index.html` em um navegador web para visualizar o site.
+Abra o arquivo `index.html` em um navegador web ou utilize Live Server para visualizar o site.
 
 ### Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (com localStorage para simulação de dados)
+- JavaScript (com `localStorage` para salvar memórias e doações localmente)

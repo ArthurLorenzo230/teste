@@ -3,42 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria/Impacto - Monitoria Solidária</title>
+    <title>Mural e Doações - Conexão Gerações</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <h1>Monitoria Solidária</h1>
+                <h1>Conexão Gerações</h1>
             </div>
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
                 <li><a href="proposta.html">A Proposta</a></li>
-                <li><a href="voluntario.html">Seja um Voluntário</a></li>
-                <li><a href="galeria.html">Galeria/Impacto</a></li>
+                <li><a href="voluntario.html">Inscrição</a></li>
+                <li><a href="galeria.html">Mural/Doações</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Galeria/Impacto</h2>
-            <div class="galeria">
-                <img src="foto1-placeholder.jpg" alt="Sessão de monitoria">
-                <img src="foto2-placeholder.jpg" alt="Alunos estudando">
-                <img src="foto3-placeholder.jpg" alt="Voluntários em ação">
+        <section id="mural-memorias">
+            <h2>Mural de Memórias</h2>
+            <p>Compartilhe uma história que você ouviu durante os encontros com os idosos.</p>
+            <form id="memoria-form">
+                <label for="autor">Seu nome:</label>
+                <input type="text" id="autor" required>
+
+                <label for="mensagem">Memória compartilhada:</label>
+                <textarea id="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Publicar memória</button>
+            </form>
+            <div id="mural-list" class="mural-list"></div>
+        </section>
+
+        <section id="campanha-doacoes">
+            <h2>Campanha de Doações</h2>
+            <p>Estamos arrecadando itens de higiene pessoal para o ILPI. Cada doação faz o termômetro subir!</p>
+            <div class="thermometer">
+                <div class="thermometer-fill" id="thermometer-fill"></div>
             </div>
-            <div class="contador">
-                <h3>Vidas Impactadas</h3>
-                <p id="contador-vidas">150</p>
-            </div>
+            <p id="thermometer-text">0 de 80 itens arrecadados</p>
+            <form id="doacao-form">
+                <label for="quantidade">Itens doados:</label>
+                <input type="number" id="quantidade" min="1" value="1" required>
+                <button type="submit">Adicionar doação</button>
+            </form>
+            <p class="info-note">Itens sugeridos: sabonete, shampoo, creme dental, escova de dentes, papel higiênico.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Monitoria Solidária. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Conexão Gerações. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

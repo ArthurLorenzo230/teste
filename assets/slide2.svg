@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" rx="24" ry="24" fill="#F5DEB3" />
+  <rect x="80" y="120" width="200" height="180" rx="24" ry="24" fill="#FFF8DC" />
+  <rect x="320" y="100" width="240" height="220" rx="24" ry="24" fill="#FFF8DC" />
+  <path d="M620 150 h120 v120 h-120 z" fill="#FFF8DC" rx="20" ry="20"/>
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#8B4513">Ciências com amigos</text>
+  <text x="400" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#8B4513">Explicações com confiança</text>
+</svg>
