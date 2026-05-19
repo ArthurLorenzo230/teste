@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conexão Gerações - Combate ao Isolamento de Idosos</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 </head>
 <body>
     <header>
@@ -29,6 +31,30 @@
             <img src="assets/logo.svg" alt="Logo Conexão Gerações" class="logo-banner">
         </section>
 
+        <section id="momentos">
+            <h3>📸 Momentos dos Encontros</h3>
+            <div class="carousel" id="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-item active" style="background: linear-gradient(135deg, #8C5A4D 0%, #D4886B 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        👵👨‍🎓
+                    </div>
+                    <div class="carousel-item" style="background: linear-gradient(135deg, #7A4438 0%, #A9736B 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        💻💬
+                    </div>
+                    <div class="carousel-item" style="background: linear-gradient(135deg, #6B4438 0%, #D4886B 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        😊❤️
+                    </div>
+                </div>
+                <button class="carousel-control carousel-control-prev">❮</button>
+                <button class="carousel-control carousel-control-next">❯</button>
+                <div class="carousel-indicators">
+                    <div class="indicator active"></div>
+                    <div class="indicator"></div>
+                    <div class="indicator"></div>
+                </div>
+            </div>
+        </section>
+
         <section id="sobre">
             <h3>O projeto</h3>
             <p>Alunos visitam um ILPI próximo ou recebem os idosos na escola para encontros que fortalecem a convivência e reduzem o isolamento social.</p>
@@ -37,6 +63,21 @@
                 <li>Mural de Memórias para compartilhar histórias emocionantes.</li>
                 <li>Termômetro de Doações para itens de higiene pessoal.</li>
             </ul>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Alunos Engajados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">45+</div>
+                    <div class="stat-label">Idosos Atendidos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Encontros Realizados</div>
+                </div>
+            </div>
         </section>
 
         <section id="destaques">

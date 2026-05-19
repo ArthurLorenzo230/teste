@@ -24,14 +24,26 @@
 
     <main>
         <section>
-            <h2>Inscrição de Voluntários</h2>
+            <h2>✍️ Inscrição de Voluntários</h2>
             <p>Se você quer ensinar tecnologia a idosos e fortalecer a conexão entre gerações, faça sua inscrição abaixo.</p>
+            
+            <div class="info-box">
+                <h3>ℹ️ Como você vai ajudar?</h3>
+                <ul class="feature-list">
+                    <li>Ensinar WhatsApp, videochamadas e aplicativos básicos</li>
+                    <li>Fazer videochamadas com familiares dos idosos</li>
+                    <li>Ouvir e compartilhar histórias</li>
+                    <li>Trazer tecnologia com humanidade</li>
+                </ul>
+            </div>
+
             <form id="inscricao-form">
                 <label for="nome">Nome completo:</label>
                 <input type="text" id="nome" required>
 
                 <label for="serie">Série:</label>
                 <select id="serie" required>
+                    <option value="">Selecione sua série</option>
                     <option value="6">6º ano</option>
                     <option value="7">7º ano</option>
                     <option value="8">8º ano</option>
@@ -44,6 +56,7 @@
 
                 <label for="modalidade">Modalidade:</label>
                 <select id="modalidade" required>
+                    <option value="">Selecione a modalidade</option>
                     <option value="presencial">Presencial</option>
                     <option value="online">Online / videochamada</option>
                 </select>
@@ -51,7 +64,7 @@
                 <label for="disponibilidade">Disponibilidade:</label>
                 <input type="text" id="disponibilidade" placeholder="Ex: Segunda e Quarta pela tarde" required>
 
-                <button type="submit">Enviar inscrição</button>
+                <button type="submit">✨ Enviar inscrição</button>
             </form>
             <div id="mensagem-inscricao" class="message"></div>
         </section>
